@@ -1,0 +1,42 @@
+REPORTE DE RENDIMIENTO: RDDs vs DATAFRAMES
+==================================================
+
+RESULTADOS RDD:
+--------------------
+Tiempo de ejecución: 0.68 segundos
+
+RESULTADOS DATAFRAME:
+--------------------
+Tiempo de ejecución: 0.51 segundos
+
+COMPARACIÓN:
+--------------------
+Speedup DataFrame/RDD: 1.33x
+Mejora de rendimiento: 24.9%
+
+ANÁLISIS TÉCNICO:
+--------------------
+RDDs (Resilient Distributed Datasets):
+- Programación funcional
+- Transformaciones lazy
+- Control total sobre operaciones
+- No optimización automática
+
+DataFrames:
+- API estructurada similar a SQL
+- Optimización automática con Catalyst
+- Mejor rendimiento
+- Esquema tipado
+
+RECOMENDACIONES:
+--------------------
+Usar DataFrames para:
+- Datos estructurados
+- Operaciones SQL
+- Mejor rendimiento
+- API más declarativa
+
+Usar RDDs para:
+- Control total sobre operaciones
+- Datos no estructurados
+- Operaciones personalizadas

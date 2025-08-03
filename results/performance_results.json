@@ -1,0 +1,16 @@
+{
+  "rdd": {
+    "execution_time": 1.9788742065429688e-05,
+    "word_count": 0
+  },
+  "dataframe": {
+    "execution_time": 1.5020370483398438e-05,
+    "word_count": 0
+  },
+  "comparison": {
+    "speedup": 1.3174603174603174,
+    "improvement_percentage": 24.096385542168676,
+    "faster_approach": "dataframe",
+    "time_difference": 4.76837158203125e-06
+  }
+}
